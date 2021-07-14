@@ -1,0 +1,133 @@
+/*--------
+ Google fonts 
+------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/*----- 
+commons style 
+---------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-blogs{
+    display: flex;
+   
+    background-color: aqua;  
+    overflow: hidden;
+    margin:10px;
+}
+.play-title{
+    font-size: 64px;
+}
+    .btn{
+        padding:10px;
+        font-size:2em;
+        color:white;
+        background-color: tomato;
+    
+    }
+    .btn:hover{background-color: aquamarine;
+        border:1px solid gold;
+    }
+
+.blog-banner img{
+    Width :556px;
+    Height:438px;
+}
+.blog-banner:hover{
+    transform: scale(1.3);
+    transition: transform 2s ease-in-out;
+}
+/*------ 
+top player style 
+-----------*/
+.players{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
+
+ .player{
+     margin: 15px;
+     
+     
+ }    
+
+    
+
+
+.player img{
+    width:100%;
+    width:315px;
+     height: 474px;
+}
+/* second section player */
+.football{
+    display: flex;
+   
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+.footbal img{
+    width:100%;
+    width:315px;
+    height: 474px;
+}
+.footbal{
+    margin:15px
+}
+/* last section */
+.footballers{
+    display: flex;
+   
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+.footballer img{
+    width:100%;
+    width:315px;
+    height: 474px;
+}
+.footballer{
+    margin:15px
+}
+/* h2 style */
+.player-info{
+    margin:0px;
+    padding:0px;
+
+}
+p{
+    margin:0px;
+    padding:0px;
+}
+
+.icon{
+    margin-left: 500px;
+}
+/*----------------
+ media Quaries apply mobile device
+ ------------------- */
+ @media only screen  and (max-width:688){
+     .top-blogs .players .football .footballer{
+         grid-template-columns: repeat(1,fr);
+         width:100%;
+         flex-direction: column;
+         align-items: center;
+         flex-wrap: nowrap;
+     }
+     }
+ @media only screen  and (mix-width:688) and (max-width:992){
+     .top-blogs .players .football .footballer{
+         grid-template-columns: repeat(2,fr);
+         width:100%;
+         flex-direction: column;
+         align-items: center;
+         flex-wrap: nowrap;
+     }
+     
+    }
