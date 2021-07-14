@@ -182,7 +182,9 @@ p{
 .other-month {
     background-color: lightgrey;
 }
-
+#start{
+    background-color: aqua;
+}
 .day {
     background-color: lightgrey;
     font-size: 2em;
