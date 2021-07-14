@@ -105,7 +105,89 @@ p{
     margin:0px;
     padding:0px;
 }
+/*------------ bonus part 
+-----------
+*/
+.calender { .calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 600px;
+    grid-gap: 1em;
+    grid-template-rows: 2em repeat(5, 1fr);
+}
 
+
+.date,
+.day {
+    background-color: slategray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+
+}
+
+.other-month {
+    background-color: lightgrey;
+}
+
+.day {
+    background-color: lightgrey;
+    font-size: 2em;
+}
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 600px;
+    grid-gap: 1em;
+    grid-template-rows: 2em repeat(5, 1fr);
+}
+
+
+.date,
+.day {
+    background-color: slategray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+
+}
+
+.other-month {
+    background-color: lightgrey;
+}
+
+.day {
+    background-color: lightgrey;
+    font-size: 2em;
+} .calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 600px;
+    grid-gap: 1em;
+    grid-template-rows: 2em repeat(5, 1fr);
+}
+
+
+.date,
+.day {
+    background-color: slategray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+
+}
+
+.other-month {
+    background-color: lightgrey;
+}
+
+.day {
+    background-color: lightgrey;
+    font-size: 2em;
+}
+/* footer patrt */
 .icon{
     margin-left: 500px;
 }
